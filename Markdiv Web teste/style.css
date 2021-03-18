@@ -1,0 +1,185 @@
+
+/*Navbar */
+#navfundo{
+    background-color: #090e21;
+    margin-top: 2%;
+    width: 70;
+    height: 95px;
+    border-radius: 5px;    
+}
+#logo{
+  padding-left: 5%;
+  margin-top: 1%; 
+}
+li {
+       float: left;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;   
+  }
+  a:visited {
+    color:white;
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+  }
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    padding-top: 3%;
+    font-size: 13pt;
+    font-family:  Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  }
+  /*redes sociais*/
+ 
+ /* Titulo*/
+ 
+ #titulo{
+    font-family: Impact, fantasy;
+    font-size: 30pt;
+    margin-top: 2%;
+    margin-left: 10%; 
+    color:red; 
+
+ }
+ #texto{
+    margin-top: 0%;
+    margin-left: 15%;
+    background-color:#F0FFFF;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 15pt;
+    
+}
+#facebook{
+  margin-left: 60%;
+  margin-top: -2%;
+}
+#facebook:hover{
+    margin-left: 60%;
+    margin-top: -2%;
+    border:solid 1px white;
+    border-radius: 5px;
+    width: 28px;
+    height: 28px;
+}
+#instagram{
+  margin-left: 60%;
+  margin-top: 1%;
+}
+#instagram:hover{
+  margin-left: 60%;
+  margin-top: 1%;
+  border:solid 1px white;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+}
+#titulohome{
+  font-size: 20pt;    
+  margin-top: 7%;
+  padding-left:11%;
+  font-family: impact,Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color:#0e0816;  
+}
+#banerhome{
+  margin-top: 5%;
+  padding-top: 2%;
+  opacity:4;    
+  width: 70%; 
+  height: 100%;
+  margin-left:5%;
+}
+#textohome{
+  font-size: 16pt;
+  color:rgb(0, 0, 0); 
+  margin-top: 1%;
+  padding-left:8%;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  width: 100%; 
+  height: auto;
+}
+
+.column {
+    float: left;
+    padding: 5%;
+  }  
+  /* Left and right column */
+  .column.side {
+    width: 45%;
+    font-size: 16pt;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    border: 2px solid rgb(50, 213, 205);
+    border-radius: 15px;
+    margin-top:2%;
+    margin-left:4%;
+  }  
+  
+  /* Middle column */
+  .column.middle {
+    width: 45%;
+    font-size: 16pt;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    border: 2px solid rgb(50, 213, 205);
+    border-radius: 15px;
+    margin-top:2%;
+    margin-left:4%;
+  }  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+ #imgecommerce{
+   margin-left: 20%;
+ }
+ #imgblog{
+  margin-left: 20%;
+}
+  #linktext{
+  background-color: rgb(198, 195, 242);
+  width: 120px;
+  font-size:13pt;
+  border-radius: 5px;
+}
+#linktext:hover{
+background-color:white;
+width: 120px;
+}
+.rotape{
+  padding-top:700px;
+}
+#fundorotape{
+  background-color: rgb(23, 19, 65);
+  width: 100%;
+  height:340px;
+  margin-top: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side {
+    width: 90%;
+    font-size: 17pt;
+  }
+  .column.middle {
+    width: 90%;
+    font-size: 17pt;
+  }
+  #banerhome{  
+    width: 90%;
+    border-radius: 15px;
+    font-size: 15pt;
+  }
+  #titulohome{
+    font-size: 14pt;
+  }
+  .rotape{
+    padding-top: 780px;
+  }
+}
